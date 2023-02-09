@@ -11,6 +11,6 @@ public class FlexibleGridLayout : MonoBehaviour {
 		width = this.gameObject.GetComponent<RectTransform>().rect.width;
 		Vector2 newSize = new Vector2(width / 3-5, width / 3-5);
 		this.gameObject.GetComponent<GridLayoutGroup>().cellSize = newSize;
-		GetComponent<RectTransform> ().offsetMin = new Vector2 (0, width - (width * 1.8f));
+		GetComponent<RectTransform> ().offsetMin = new Vector2 (0, width - (width * 2.5f));
 	}
 }
